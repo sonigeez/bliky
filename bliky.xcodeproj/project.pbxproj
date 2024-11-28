@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4FB568352CF9277D00F2DFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FB5681B2CF9277C00F2DFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FB568222CF9277C00F2DFE1;
+			remoteInfo = bliky;
+		};
+		4FB5683F2CF9277D00F2DFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FB5681B2CF9277C00F2DFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FB568222CF9277C00F2DFE1;
+			remoteInfo = bliky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FB568232CF9277C00F2DFE1 /* bliky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bliky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB568342CF9277D00F2DFE1 /* blikyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blikyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB5683E2CF9277D00F2DFE1 /* blikyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blikyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4FB568252CF9277C00F2DFE1 /* bliky */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bliky;
+			sourceTree = "<group>";
+		};
+		4FB568372CF9277D00F2DFE1 /* blikyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = blikyTests;
+			sourceTree = "<group>";
+		};
+		4FB568412CF9277D00F2DFE1 /* blikyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = blikyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FB568202CF9277C00F2DFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB568312CF9277D00F2DFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB5683B2CF9277D00F2DFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FB5681A2CF9277C00F2DFE1 = {
+			isa = PBXGroup;
+			children = (
+				4FB568252CF9277C00F2DFE1 /* bliky */,
+				4FB568372CF9277D00F2DFE1 /* blikyTests */,
+				4FB568412CF9277D00F2DFE1 /* blikyUITests */,
+				4FB568242CF9277C00F2DFE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FB568242CF9277C00F2DFE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FB568232CF9277C00F2DFE1 /* bliky.app */,
+				4FB568342CF9277D00F2DFE1 /* blikyTests.xctest */,
+				4FB5683E2CF9277D00F2DFE1 /* blikyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FB568222CF9277C00F2DFE1 /* bliky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB568482CF9277D00F2DFE1 /* Build configuration list for PBXNativeTarget "bliky" */;
+			buildPhases = (
+				4FB5681F2CF9277C00F2DFE1 /* Sources */,
+				4FB568202CF9277C00F2DFE1 /* Frameworks */,
+				4FB568212CF9277C00F2DFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FB568252CF9277C00F2DFE1 /* bliky */,
+			);
+			name = bliky;
+			packageProductDependencies = (
+			);
+			productName = bliky;
+			productReference = 4FB568232CF9277C00F2DFE1 /* bliky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FB568332CF9277D00F2DFE1 /* blikyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB5684B2CF9277D00F2DFE1 /* Build configuration list for PBXNativeTarget "blikyTests" */;
+			buildPhases = (
+				4FB568302CF9277D00F2DFE1 /* Sources */,
+				4FB568312CF9277D00F2DFE1 /* Frameworks */,
+				4FB568322CF9277D00F2DFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB568362CF9277D00F2DFE1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4FB568372CF9277D00F2DFE1 /* blikyTests */,
+			);
+			name = blikyTests;
+			packageProductDependencies = (
+			);
+			productName = blikyTests;
+			productReference = 4FB568342CF9277D00F2DFE1 /* blikyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FB5683D2CF9277D00F2DFE1 /* blikyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB5684E2CF9277D00F2DFE1 /* Build configuration list for PBXNativeTarget "blikyUITests" */;
+			buildPhases = (
+				4FB5683A2CF9277D00F2DFE1 /* Sources */,
+				4FB5683B2CF9277D00F2DFE1 /* Frameworks */,
+				4FB5683C2CF9277D00F2DFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB568402CF9277D00F2DFE1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4FB568412CF9277D00F2DFE1 /* blikyUITests */,
+			);
+			name = blikyUITests;
+			packageProductDependencies = (
+			);
+			productName = blikyUITests;
+			productReference = 4FB5683E2CF9277D00F2DFE1 /* blikyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FB5681B2CF9277C00F2DFE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					4FB568222CF9277C00F2DFE1 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					4FB568332CF9277D00F2DFE1 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4FB568222CF9277C00F2DFE1;
+					};
+					4FB5683D2CF9277D00F2DFE1 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4FB568222CF9277C00F2DFE1;
+					};
+				};
+			};
+			buildConfigurationList = 4FB5681E2CF9277C00F2DFE1 /* Build configuration list for PBXProject "bliky" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FB5681A2CF9277C00F2DFE1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4FB568242CF9277C00F2DFE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FB568222CF9277C00F2DFE1 /* bliky */,
+				4FB568332CF9277D00F2DFE1 /* blikyTests */,
+				4FB5683D2CF9277D00F2DFE1 /* blikyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FB568212CF9277C00F2DFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB568322CF9277D00F2DFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB5683C2CF9277D00F2DFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FB5681F2CF9277C00F2DFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB568302CF9277D00F2DFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB5683A2CF9277D00F2DFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FB568362CF9277D00F2DFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FB568222CF9277C00F2DFE1 /* bliky */;
+			targetProxy = 4FB568352CF9277D00F2DFE1 /* PBXContainerItemProxy */;
+		};
+		4FB568402CF9277D00F2DFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FB568222CF9277C00F2DFE1 /* bliky */;
+			targetProxy = 4FB5683F2CF9277D00F2DFE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FB568462CF9277D00F2DFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FB568472CF9277D00F2DFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4FB568492CF9277D00F2DFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bliky/bliky.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bliky/Preview Content\"";
+				DEVELOPMENT_TEAM = GJS8P25Q84;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.anokha.bliky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4FB5684A2CF9277D00F2DFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bliky/bliky.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bliky/Preview Content\"";
+				DEVELOPMENT_TEAM = GJS8P25Q84;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.anokha.bliky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4FB5684C2CF9277D00F2DFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJS8P25Q84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.anokha.blikyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bliky.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bliky";
+			};
+			name = Debug;
+		};
+		4FB5684D2CF9277D00F2DFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJS8P25Q84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.anokha.blikyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bliky.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bliky";
+			};
+			name = Release;
+		};
+		4FB5684F2CF9277D00F2DFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJS8P25Q84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.anokha.blikyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = bliky;
+			};
+			name = Debug;
+		};
+		4FB568502CF9277D00F2DFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJS8P25Q84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.anokha.blikyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = bliky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FB5681E2CF9277C00F2DFE1 /* Build configuration list for PBXProject "bliky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB568462CF9277D00F2DFE1 /* Debug */,
+				4FB568472CF9277D00F2DFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB568482CF9277D00F2DFE1 /* Build configuration list for PBXNativeTarget "bliky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB568492CF9277D00F2DFE1 /* Debug */,
+				4FB5684A2CF9277D00F2DFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB5684B2CF9277D00F2DFE1 /* Build configuration list for PBXNativeTarget "blikyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB5684C2CF9277D00F2DFE1 /* Debug */,
+				4FB5684D2CF9277D00F2DFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB5684E2CF9277D00F2DFE1 /* Build configuration list for PBXNativeTarget "blikyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB5684F2CF9277D00F2DFE1 /* Debug */,
+				4FB568502CF9277D00F2DFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FB5681B2CF9277C00F2DFE1 /* Project object */;
+}
